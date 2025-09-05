@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.shadowzinha {
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 20px 0px;
+}
