@@ -27,7 +27,7 @@ function App() {
   };
 
   return (
-    <div>
+    <>
       <Header />
 
       <div className="bg-gray-200 dark:bg-gray-900 dark:text-white flex flex-row justify-between items-center p-4">
@@ -50,7 +50,7 @@ function App() {
       </div>
       {/* Galeria dinâmica */}
       <div>{openFolder ? <Gallery folder={openFolder} /> : <HomePage />} </div>
-    </div>
+    </>
   );
 }
 

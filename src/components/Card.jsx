@@ -7,7 +7,8 @@ const Card = ({ imagens }) => {
     <>
       <div className="bg-gray-100 dark:bg-gray-500 pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
         {imagens.map((image, index) => (
-          <div key={image.id || index}>
+          <div
+           key={image.id || index}>
             <LazyLoadImage
               src={image.src}
               alt={`Imagem ${index + 1}`}
