@@ -14,6 +14,7 @@ function App() {
     { name: "JUNHO", path: "jun" },
     { name: "JULHO", path: "jul" },
     { name: "AGOSTO", path: "ago" },
+    { name: "SETEMBRO", path: "set" },
   ];
 
   const handleToggle = (folder) => {
