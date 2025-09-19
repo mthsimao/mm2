@@ -5,7 +5,7 @@ const HomePage = () => {
     <div className="bg-gray-200 dark:bg-gray-900 dark:text-white flex flex-col min-h-screen">
       {/* Conteúdo principal */}
       <main className="flex-grow py-8">
-        <div className="max-w-[730px] mx-auto flex flex-col items-center gap-6 text-xl ">
+        <div className="max-w-[730px] mx-auto flex flex-col items-center gap-6 text-xl p-4">
           <h2 className="text-2xl font-bold text-center">Oii!</h2>
 
           <p>
